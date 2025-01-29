@@ -74,7 +74,7 @@ fun LogInForm(modifier: Modifier = Modifier) {
             label = {Text(text = "Username")},
             singleLine = true,
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text),
-            leadingIcon = {
+            trailingIcon = {
                 Icon(imageVector = Icons.Default.Person, contentDescription = "Username Icon")
             }
         )
@@ -87,7 +87,7 @@ fun LogInForm(modifier: Modifier = Modifier) {
             singleLine = true,
             visualTransformation = PasswordVisualTransformation(),
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-            leadingIcon = {
+            trailingIcon  = {
                 Icon(imageVector = Icons.Default.Lock, contentDescription = "Password Icon")
             }
         )
